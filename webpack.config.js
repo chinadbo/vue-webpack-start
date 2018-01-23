@@ -81,6 +81,10 @@ if (isDev) {
     new webpack.NoEmitOnErrorsPlugin()
   )
 } else {
+  config.entry = {
+    app: path.join(__dirname, 'src/index.js'),
+    vendor: ['vue']
+  }
   config.output.filename = '[name].[chunkhash:8].js'
   config.module.rules.push({
     test: /\.styl$/,
@@ -99,7 +103,13 @@ if (isDev) {
     })
   })
   config.plugins.push(
-    new ExtractPlugin('style.[contentHash:8].css')
+    new ExtractPlugin('style.[contentHash:8].css'),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor'
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'runtime'
+    })
   )
 }
 
