@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chinadbo/vue-webpack-demo.git"
+    "url": "git+https://github.com/chinadbo/vue-webpack-start.git"
   },
   "keywords": [],
   "author": "Ioodu <chinadbo@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chinadbo/vue-webpack-demo/issues"
+    "url": "https://github.com/chinadbo/vue-webpack-start/issues"
   },
-  "homepage": "https://github.com/chinadbo/vue-webpack-demo#readme",
+  "homepage": "https://github.com/chinadbo/vue-webpack-start#readme",
   "dependencies": {
     "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",
