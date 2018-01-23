@@ -10,10 +10,10 @@
   根目录webpack.config.js
   ```javascript
   const config = {
-    entry: path.join(__dirname, 'src/index.js),
+    entry: path.join(__dirname, 'src/index.js'),
     output: {
       filename: 'bundle.js',
-      path: path.join(__dirname, 'dist')
+      path: path.join(__dirname, 'dist'),
       module: {
         rules: [
           {
