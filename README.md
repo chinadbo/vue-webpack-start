@@ -1,4 +1,8 @@
 # vue-webpack-demo
+
+## [webpack 4.0.0快速上手](https://github.com/chinadbo/webpack4-start)
+## [A Vue.js Parcel-Bundler](https://github.com/chinadbo/vue-parcel)
+
 ## 目录
 1. 通过webpack搭建vue工程workflow;
 2. .vue文件开发模式;
