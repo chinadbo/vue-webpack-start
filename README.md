@@ -233,7 +233,14 @@
   ```
 ## webpack打包优化的基本点
 
+1. 优化插件
 - OccurenceOrderPlugin :为组件分配ID，通过这个插件webpack可以分析和优先考虑使用最多的模块，并为它们分配最小的ID
 - UglifyJsPlugin：压缩JS代码；
 - ExtractTextPlugin：分离CSS和JS文件
+2. 缓存
+
+- hash
+
+- clean-webpack-plugin
+
 ...
