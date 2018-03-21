@@ -3,6 +3,10 @@
 ## [webpack 4.0.0快速上手](https://github.com/chinadbo/webpack4-start)
 ## [A Vue.js Parcel-Bundler](https://github.com/chinadbo/vue-parcel)
 
+
+[前端工程化之自动构建gulp及模块打包webpack和parcel简介](https://github.com/chinadbo/web-front-end/issues/6)
+
+
 ## 目录
 1. 通过webpack搭建vue工程workflow;
 2. .vue文件开发模式;
